@@ -135,7 +135,7 @@ class MdremNode : public rclcpp::Node {
     thetar << link1_param, link2_param, link3_param, link4_param, link5_param, link6_param,
         link7_param;
 
-    // I believe these parameters are the ones from Gazebo simulator, but I'm not sure.
+    // Set of parameters from Franka Robotics Github.
     /*VectorXd link1_param(10); //Inertial parameters of link 1
     link1_param << 2.9275, 1.2085e-06, -0.053061, -0.11301, 0.023927, 1.3318e-05, -0.00011405,
     0.022482, -0.001995, 0.0063501; VectorXd link2_param(10); link2_param << 2.9355, 0.0093435,
